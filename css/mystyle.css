@@ -1,0 +1,104 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute
+    z-index: 1;
+}
+
+ .dropdown-content a {
+    display: block;
+    text-decoration: none
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+
+li {
+    color: gold;
+    background-color: blue;
+    list-style-type: none;
+    display: inline;
+    width: none;
+    border: 1px solid red;     
+    padding: 20px 10px;
+    margin-right: 10px;
+    }
+
+li a {
+    text-decoration: none;
+    color: gold;
+    font-family: cursive;
+}
+
+ul {
+    border: 5px solid orange;
+    padding: 20px 100px;
+    text-align: center;
+    background-color: gray;
+}
+
+#active {
+    background-color: black;
+}
+
+li:hover {background-color: antiquewhite;}
+
+
+/*
+.table {
+    border: 10px solid black;
+    margin: 40px 20px;
+    padding: 20px 10px;
+}
+*/
+
+table {
+    border-collapse: collapse;
+} 
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    color: brown;
+    font-family: cursive;
+}
+
+.search {
+    margin: 20px;
+}
+button {
+    
+    color: red;
+    background-color: gray;
+    padding: 0px 10px;
+}
+button:hover {
+    background-color: blueviolet
+}
